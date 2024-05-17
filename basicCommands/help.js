@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [Atomic Music](https://www.youtube.com/channel/)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [Atomic Music](https://youtube.com/@oggygamerz14?si=V-SWqgGBK1lcenOK/)**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -61,12 +61,12 @@ module.exports = {
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setURL('https://youtube.com/@oggygamerz14?si=V-SWqgGBK1lcenOK')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/xQF9f9yUEM')
+      .setURL('https://discord.com/invite/oggygamerz')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
