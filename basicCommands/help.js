@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [GlaceYT](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [Atomic Music](https://www.youtube.com/channel/)**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -57,7 +57,7 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=6641e8b7&is=66409737&hm=96f69ba8bcde4ca44bf8713e22001e0bafad0335cfd1f57c439a34b4762f0e03&`);
+      .setImage(`https://media.discordapp.net/attachments/1167887547876245644/1241090828051546152/d7fe664683ddc1b16215f47b8735a733_1.png?ex=6648ef67&is=66479de7&hm=ee2cec8c831a9cc9afeec026ca660d3a10994f2a2467558982ac493860ef8c0b&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
