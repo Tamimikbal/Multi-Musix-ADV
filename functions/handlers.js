@@ -1,6 +1,6 @@
 const status = "AUTOMATIC";
-const botName = "🌇 MULTI MUSIX ";
-const rtxText = "GlaceYT";
+const botName = "🌇 Atomic Music ";
+const rtxText = "Unknown";
 const version = "Latest@ v1.7"; 
 const startTime = Date.now();
 
